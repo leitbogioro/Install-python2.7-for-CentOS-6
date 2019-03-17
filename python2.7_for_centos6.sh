@@ -10,8 +10,8 @@ plain='\033[0m'
 [[ $EUID -ne 0 ]] && echo -e "[${red}错误${plain}] 你必须以管理员身份运行该脚本！" && exit 1
 
 # 安装 python-2.7.15
-python_url="https://www.python.org/ftp/python/2.7.15/Python-2.7.15.tgz"
-python_file="Python-2.7.15"
+python_url="https://www.python.org/ftp/python/2.7.16/Python-2.7.16.tgz"
+python_file="Python-2.7.16"
 
 install_python(){
     # 安装所有的开发工具包
